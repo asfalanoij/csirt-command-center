@@ -113,7 +113,7 @@ Perfect for **cybersecurity roles** requiring both security expertise and develo
 💼 [LinkedIn](https://linkedin.com/in/rudyprasetiya)  
 📧 Contact via website  
 
-*Looking for opportunities in cybersecurity, full-stack development, or security automation roles.*
+*Looking for opportunities in cybersecurity, GRC Engineering, Security Risk&Compliance, or security automation roles.*
 
 ---
 
