@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "react-bits": {
+      "command": "node",
+      "args": [
+        "/Users/asfalanoi/.claude/mcp-servers/react-bits-mcp/index.js"
+      ],
+      "env": {
+        "REACT_BITS_API_URL": "https://react-bits-mcp.davidhzdev.workers.dev"
+      }
+    }
+  }
+}

@@ -1,9 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+# Neo-Brutalism Theme CSS
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap');
+This file contains the neo-brutalism theme CSS variables for future reference.
 
+## Key Features
+- **Bold, high-contrast colors**: Bright red primary, yellow secondary, blue accent
+- **Zero border radius**: Completely sharp, angular design
+- **Distinctive box shadows**: 4px offset shadows for brutalist effect
+- **DM Sans & Space Mono fonts**: Clean, modern typography
+
+```css
 :root {
   --background: rgb(255, 255, 255);
   --foreground: rgb(0, 0, 0);
@@ -100,8 +105,6 @@
   --shadow-2xl: 4px 4px 0px 0px hsl(0 0% 0% / 2.50);
 }
 
-
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -154,65 +157,4 @@
   --shadow-xl: var(--shadow-xl);
   --shadow-2xl: var(--shadow-2xl);
 }
-  --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
-  --tracking-tight: calc(var(--tracking-normal) - 0.025em);
-  --tracking-normal: var(--tracking-normal);
-  --tracking-wide: calc(var(--tracking-normal) + 0.025em);
-  --tracking-wider: calc(var(--tracking-normal) + 0.05em);
-  --tracking-widest: calc(var(--tracking-normal) + 0.1em);
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: var(--background);
-  color: var(--foreground);
-  overflow-x: hidden;
-  letter-spacing: var(--tracking-normal);
-  line-height: 1.5;
-}
-
-code {
-  font-family: 'Roboto Mono', 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Droid Sans Mono', 'Courier New', monospace;
-}
-
-.cyber-glow {
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
-  border: 1px solid rgba(0, 212, 255, 0.5);
-}
-
-.cyber-glow-green {
-  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
-  border: 1px solid rgba(0, 255, 136, 0.5);
-}
-
-.cyber-glow-red {
-  box-shadow: 0 0 20px rgba(255, 0, 85, 0.3);
-  border: 1px solid rgba(255, 0, 85, 0.5);
-}
-
-.cyber-glow-yellow {
-  box-shadow: 0 0 20px rgba(255, 170, 0, 0.3);
-  border: 1px solid rgba(255, 170, 0, 0.5);
-}
-
-.animate-pulse-slow {
-  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes cyber-flicker {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.8; }
-}
-
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
+```

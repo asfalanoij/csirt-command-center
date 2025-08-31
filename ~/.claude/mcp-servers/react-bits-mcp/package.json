@@ -1,0 +1,9 @@
+{
+  "name": "react-bits-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for React Bits components",
+  "main": "index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  }
+}
